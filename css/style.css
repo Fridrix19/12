@@ -1471,7 +1471,7 @@ table {
 }
 @media (max-width:834px){
     .texth1 h1 {
-        display: none;
+        display: none !important;
         opacity: 0%;
         position: relative;
         cursor: pointer;
@@ -1824,7 +1824,7 @@ table {
 }
 @media (max-width:600px){
     .texth1 h1 {
-        display: none;
+        display: none !important;
         opacity: 0%;
         position: relative;
         cursor: pointer;
@@ -2524,7 +2524,12 @@ table {
 }
 
 @media (max-width:414px){
-    
+    .texth1 h1 {
+        display: none !important;
+        opacity: 0%;
+        position: relative;
+        cursor: pointer;
+    }
     .radio-form {
         display: block;
         margin: auto;
@@ -2868,7 +2873,12 @@ table {
 
 }
 @media (max-width:375px){
-
+    .texth1 h1 {
+        display: none !important;
+        opacity: 0%;
+        position: relative;
+        cursor: pointer;
+    }
 
     .radio-form {
         display: block;
